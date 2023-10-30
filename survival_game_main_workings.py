@@ -216,7 +216,7 @@ class Human:
         # Draw the player on the window
 
     def firing(self, key_pressed):
-        if key_pressed[K_SPACE]:
+        if key_pressed[K_RCTRL]:
             if len(self.MAN_BULLETS) <= self.max_bullets:
                 # Create a bullet at the bottom of the player
                 bullet = Bullet(self.rect.x + self.rect.width // 2, self.rect.y, BULLET_IMAGE)
