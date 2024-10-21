@@ -345,5 +345,5 @@ def survival_game_main():
 
     pygame.quit()
 
-survival_game_main()
+# survival_game_main()
 
