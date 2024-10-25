@@ -268,7 +268,7 @@ def main_frame_setup():
     global zombie_image
     pygame.init()
     pygame.display.set_caption("ZOMBIE SURVIVAL GAME")
-    FPS = 40
+    FPS = 120
     clock = pygame.time.Clock()
     run = True
 
